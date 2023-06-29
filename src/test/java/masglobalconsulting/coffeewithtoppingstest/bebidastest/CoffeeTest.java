@@ -25,6 +25,7 @@ public class CoffeeTest {
         bebida = new Mocca(bebida);
         bebida = new Vainilla(bebida);
         Assertions.assertThat(bebida.getPrecio()).isEqualTo(11);
+        Assertions.assertThat(bebida.getDescription()).isEqualTo("Coffee con leche con mocca con vainilla");
     }
 
 }
