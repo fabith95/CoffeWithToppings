@@ -9,6 +9,6 @@ public class Coffee extends Bebida{
 
     @Override
     public String getDescription() {
-        return "Coffe";
+        return "Coffee";
     }
 }
